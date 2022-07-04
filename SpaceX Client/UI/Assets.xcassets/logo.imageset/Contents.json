@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "spacex-logo-png-transparent.png",
       "idiom" : "universal"
     }
   ],

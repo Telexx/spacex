@@ -1,14 +1,13 @@
 //
-//  SpaceX_ClientTests.swift
+//  ExtensionTests.swift
 //  SpaceX ClientTests
 //
-//  Created by Alec on 28/06/2022.
+//  Created by Alec on 29/06/2022.
 //
 
 import XCTest
-@testable import SpaceX_Client
 
-final class SpaceX_ClientTests: XCTestCase {
+final class ExtensionTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
