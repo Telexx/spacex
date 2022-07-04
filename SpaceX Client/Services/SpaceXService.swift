@@ -26,7 +26,7 @@ struct SpaceXService: HTTPClient, SpaceXServiceable{
     
     func getLaunches() async -> Result<[Launch], RequestError> {
         return await sendRequest(endpoint: SpaceXEndpoint.launches, responseModel: [Launch].self)
-    }
+    } 
     
     func getCompanyInfo() async -> Result<Company, RequestError> {
         return await sendRequest(endpoint: SpaceXEndpoint.companyInfo, responseModel: Company.self)
