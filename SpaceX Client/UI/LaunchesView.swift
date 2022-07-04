@@ -36,10 +36,3 @@ struct LaunchesView: View {
     }
 }
 
-
-
-//struct LaunchesView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        //LaunchesView(vm: LaunchesViewModel(successfulOnly: false))
-//    }
-//}
